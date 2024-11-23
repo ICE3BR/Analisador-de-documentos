@@ -5,8 +5,8 @@ Este projeto consiste em um programa que analisa cartões de crédito usando Azu
 ## Etapas De Execução:
 
 1. Recebe arquivos de imagem (png, jpg, jpeg)
-2. Os arquivos são enviados para um armazenamento blob da Microsoft Azure onde serão acessados de forma anonima.
-3. O serviço da Azure de analise de documentos vai ser chamado para processar a imagem enviada.
+2. Os arquivos são enviados para um armazenamento blob da Microsoft Azure onde serão acessados de forma anônima.
+3. O serviço da Azure de análise de documentos vai ser chamado para processar a imagem enviada.
 4. Caso a imagem contenha os dados: Nome do Titular, Numero do cartão, Data e Banco emissor, o cartão é considerado válido e retornando as informações do mesmo.
 
 ## Como Executar o Projeto
@@ -14,12 +14,12 @@ Este projeto consiste em um programa que analisa cartões de crédito usando Azu
    ```bash
    cd src
    ```
-2. Instale as dependecias do projeto:
+2. Instale as dependências do projeto:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Para executar o programa no windows, abra o terminal e execute o script:
+4. Para executar o programa no Windows, abra o terminal e execute o script:
    ```bash
    streamlit run .\app.py
    ```
@@ -28,7 +28,7 @@ Este projeto consiste em um programa que analisa cartões de crédito usando Azu
 
 
 ### OBS: 
-- É necessário instalar as dependecias para execução correta código.
+- É necessário instalar as dependências para execução correta código.
 - Precisa ter as chaves de acesso da Azure corretamente configuradas em um arquivo```.env``` na raiz ```SRC``` para execução do código.
   ```
    ENDPOINT = "https://XXXX.cognitiveservices.azure.com/"
