@@ -29,7 +29,7 @@ Este projeto consiste em um programa que analisa cartões de crédito usando Azu
 
 ### OBS: 
 - É necessário instalar as dependências para execução correta código.
-- Precisa ter as chaves de acesso da Azure corretamente configuradas em um arquivo```.env``` na raiz ```SRC``` para execução do código.
+- Precisa ter as chaves de acesso da Azure corretamente configuradas em um arquivo```.env``` na raiz [SRC](src) para execução do código.
   ```
    ENDPOINT = "https://XXXX.cognitiveservices.azure.com/"
    SUBSCRIPTION_KEY = "KEY"
